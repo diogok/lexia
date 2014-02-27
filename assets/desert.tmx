@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="10" tilewidth="72" tileheight="72">
+ <tileset firstgid="1" name="tiles_spritesheet" tilewidth="72" tileheight="72">
+  <image source="tiles_spritesheet.png" width="914" height="936"/>
+ </tileset>
+ <layer name="desert" width="60" height="10">
+  <data encoding="base64" compression="zlib">
+   eJybyTByQC8QzxxoR9ARUNu/dUCcCsQqVDSTHFAIdQc6nomEqQVg5kVS0UxiACisVRhQ/YQPUwOgm0lvP6O7A5c4shwrAyTuyXErtnAk1yxKACn+RRYnxZ2E0g8pZsHyH7nhhGxvOw734NIXiYSJtYMSPxcSqaeQgHmE3JJBhB5c5hNbRuALtyIGzDIUm70gf7bjkCPVXfjKb3zmE+tfSsINn5vwpX10tQCzCmb9
+  </data>
+ </layer>
+ <objectgroup name="objs" width="60" height="10">
+  <object type="teleporter" x="4032" y="360">
+   <properties>
+    <property name="to" value="snow"/>
+   </properties>
+  </object>
+  <object type="teleporter" x="3240" y="504">
+   <properties>
+    <property name="to" value="snow"/>
+   </properties>
+  </object>
+  <object type="teleporter" x="1512" y="72">
+   <properties>
+    <property name="to" value="cave"/>
+   </properties>
+  </object>
+  <object type="teleporter" x="144" y="504">
+   <properties>
+    <property name="to" value="grass"/>
+   </properties>
+  </object>
+  <object type="teleporter" x="3672" y="144">
+   <properties>
+    <property name="to" value="cave"/>
+   </properties>
+  </object>
+  <object type="teleporter" x="288" y="288">
+   <properties>
+    <property name="to" value="snow"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

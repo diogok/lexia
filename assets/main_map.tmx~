@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="10" tilewidth="72" tileheight="72">
+ <tileset firstgid="1" name="tiles_spritesheet" tilewidth="72" tileheight="72">
+  <image source="/tiles_spritesheet.png" width="914" height="936"/>
+ </tileset>
+ <layer name="green" width="100" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzt0bsNACAIRVEGdQAHcBm2Vey08oOR4p7kdRQkVwQAgDP6+wEM6BELPWLZ6VHa0qtH0FmPvDid7uFPLwZfFWFjEtc=
+  </data>
+ </layer>
+ <objectgroup name="objs" width="100" height="10">
+  <object name="start" type="start" x="183" y="545"/>
+ </objectgroup>
+</map>
